@@ -3,6 +3,11 @@
   font-size: 1.9rem;
   color: $mainBlue;
 
+  &--white {
+    color: rgba(255, 255, 255, 0.97);
+    display: inline-block;
+  }
+
   @mixin atSmall {
     font-size: 2.875rem;
   }
@@ -42,5 +47,11 @@
 
   &--no-t-margin {
     margin-top: 0;
+  }
+  &--no-margin {
+    margin: 0;
+  }
+  &--t-margin-small {
+    margin-top: -1em;
   }
 }
