@@ -1,0 +1,8 @@
+.feature-item {
+  position: relative;
+  padding-left: 95px;
+  &__icon {
+    position: absolute;
+    left: 0;
+  }
+}
